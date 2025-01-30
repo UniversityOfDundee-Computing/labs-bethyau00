@@ -1,0 +1,61 @@
+/*
+Colors
+#70D6FF
+#FF70A6
+#FF9770
+#FFD670
+#E0E0E0 - OUR LIGHT COLOR
+#313638 - OUR DARK COLOR
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: #313638
+}
+
+.menu{
+    background-color: #E0E0E0;
+    max-width: 600px; 
+    margin: auto;
+    padding: 20px; 
+}
+
+h1, h2{
+    font-family: "Luckiest Guy", cursive;
+    color: #70D6FF;
+    border-bottom-color:#FFD670;
+    border-bottom-width: 5px;
+    border-bottom-style: dotted; 
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+.menuItem{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #f09573;
+    margin-bottom: 0; 
+    text-align: center;
+}
+
+.itemPrice{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #c94f22;
+    margin-top: 0;
+    text-align: center;
+}
+
+.foodIcon{
+    color: #FFD670;
+    font-size: 175%;
+    padding: 0 15px;
+}
