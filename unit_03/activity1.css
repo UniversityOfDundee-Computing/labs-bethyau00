@@ -1,0 +1,29 @@
+/* COLOURS TO USE 
+#F6E8EA
+#2C6E49
+#4C956C
+#D68C45
+#242425
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    background-color: #F6E8EA;
+}
+
+h1, h2, h3{
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    color: #2C6E49;
+}
+
+p, li{
+    font-family: "EB Garamond", Serif; 
+    font-weight:400;
+    color: #242425
+}
+
+.highlight-color{
+    color: #D68C45
+}
