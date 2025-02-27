@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.black-box {
+    width: 80%;
+    height: 120px; /* Adjust height as needed */
+    background-color: black;
+    margin-bottom: 20px; /* Space between the black box and the colour picker */
+}
+
+.color-picker {
+    display: flex;
+    gap: 10px;
+}
+
+.color {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color:hover {
+    transform: scale(1.1);
+}
